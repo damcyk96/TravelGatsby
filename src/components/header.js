@@ -4,6 +4,7 @@ import React from "react"
 import styled from "styled-components"
 import { FaBars } from "react-icons/fa"
 import { menuData } from "../data/MenuData"
+import { Button } from "./Button"
 
 const Header = ({}) => {
   return (
@@ -17,7 +18,11 @@ const Header = ({}) => {
           </NavLink>
         ))}
       </NavMenu>
-      <NavBtn>BTN</NavBtn>
+      <NavBtn>
+        <Button primary="true" round="true" to="/trips">
+          Book a flight
+        </Button>
+      </NavBtn>
     </Nav>
   )
 }
