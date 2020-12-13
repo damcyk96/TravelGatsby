@@ -1,0 +1,26 @@
+[
+  {
+    "img": "../assets/images/travel-1.jpg",
+    "alt": "Lorem ipsum 1",
+    "name": "Lorem ipsum 1",
+    "button": "View Destination"
+  },
+  {
+    "img": "../assets/images/travel-2.jpg",
+    "alt": "Lorem ipsum 2",
+    "name": "Lorem ipsum 2",
+    "button": "View Destination"
+  },
+  {
+    "img": "../assets/images/travel-3.jpg",
+    "alt": "Lorem ipsum 3",
+    "name": "Lorem ipsum 3",
+    "button": "View Destination"
+  },
+  {
+    "img": "../assets/images/travel-4.jpg",
+    "alt": "Lorem ipsum 4",
+    "name": "Lorem ipsum 4",
+    "button": "View Destination"
+  }
+]

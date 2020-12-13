@@ -1,12 +1,11 @@
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
 import styled from "styled-components"
 import { FaBars } from "react-icons/fa"
 import { menuData } from "../data/MenuData"
 import { Button } from "./Button"
 
-const Header = ({}) => {
+const Header = () => {
   return (
     <Nav>
       <NavLink to="/">WebsiteName</NavLink>
