@@ -1,6 +1,6 @@
 import React from "react"
 import { GiEarthAmerica } from "react-icons/gi"
-import { MdAirplanymodeActive, MdTimer } from "react-icons/md"
+import { MdAirplanemodeActive, MdTimer } from "react-icons/md"
 import { FaMoneyCheck } from "react-icons/fa"
 
 export const StatsData = [
@@ -17,7 +17,7 @@ export const StatsData = [
   },
   {
     icon: (
-      <MdAirplanymodeActive
+      <MdAirplanemodeActive
         css={`
           color: #f3a82e;
         `}
