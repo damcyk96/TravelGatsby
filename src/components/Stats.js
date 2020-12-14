@@ -30,7 +30,7 @@ const StatsContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 4rem calc((100vh-1300px) / 2);
+  padding: 4rem calc((100vw - 1300px) / 2);
 `
 const Heading = styled.h1`
   text-align: start;
