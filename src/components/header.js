@@ -1,11 +1,16 @@
 import { Link } from "gatsby"
-import React from "react"
+import React, { useState } from "react"
 import styled from "styled-components"
 import { FaBars } from "react-icons/fa"
 import { menuData } from "../data/MenuData"
 import { Button } from "./Button"
 
 const Header = () => {
+  const [isOpen, setNav] = useState()
+  const toggleNav = () => {
+    setNav(isOpen => !isOpen)
+  }
+  console.log(isOpen)
   return (
     <Nav>
       <NavLink to="/">WebsiteName</NavLink>
@@ -17,8 +22,8 @@ const Header = () => {
           </NavLink>
         ))}
       </NavMenu>
-      <NavBtn>
-        <Button primary="true" round="true" to="/trips">
+      <NavBtn onClick={toggleNav}>
+        <Button primary="true" round="true">
           Book a flight
         </Button>
       </NavBtn>
